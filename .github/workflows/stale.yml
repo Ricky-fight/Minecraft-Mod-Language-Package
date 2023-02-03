@@ -18,7 +18,7 @@ jobs:
           stale-pr-message: "提醒：审核者需要您的回复，7+7已进入第二阶段，该PR即将关闭。"
           close-pr-message: "因审核者请求您更新该PR，且回复时间超过规定期限，该PR现暂时关闭。如您需再次提交可重新打开该PR，感谢您的贡献:heart:。"
           days-before-pr-stale: 0
-          days-before-pr-close: 0
+          days-before-pr-close: 1
           any-of-pr-labels: "needs author action,changes required"
           stale-pr-label: "stale"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
